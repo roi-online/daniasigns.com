@@ -34,7 +34,7 @@ var cookieInfoText = ["Expiration", "Domain", "Controller"];
 
 var bannerShowingDelayed = 0;
 
-var websiteLogo = "https://roi-online.dk/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2019/02/LOGO-768x337.jpg.webp";
+var websiteLogo = "https://daniasigns.com/wp-content/uploads/2025/01/DaniaSigns.png";
 
 var logoWidth = "200px";
 
@@ -58,7 +58,7 @@ var secondBannerShowingTime = 20;
 
 var storeQuery = true;
 var addBackToUrl = true;
-var queryParamsToStore = ['gcild', 'utm_source', 'utm_medium'];
+var queryParamsToStore = ['gclid', 'utm_source', 'utm_medium'];
 
 const root = document.querySelector(':root');
 var rootStyle = getComputedStyle(root);
