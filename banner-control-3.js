@@ -567,7 +567,7 @@ window.addEventListener("load", function() {
 				cookieHeadlineColor: "white",
 				cookieDescriptionColor: "white",
 				bannerAccentColor: rootStyle.getPropertyValue("--bannerAccentColor"),
-				bannerColorWhite: "#181C14",
+				bannerColorWhite: "#AA102D",
 				mainCookieBgColor: "#3C3D37",
 				InsideBorderColor: rootStyle.getPropertyValue("--InsideBorderColor"),
 
