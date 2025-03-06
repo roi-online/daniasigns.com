@@ -7,9 +7,8 @@ var learnMoreText = "Learn more about the provider";
 
 var topSectionText = ["Consent", "Details", "About"];
 
-var firstSectionText = "Vi bruger cookies til at personalisere indhold og annoncer, tilvejebringe funktioner til sociale medier og analysere vores trafik. Vi deler også oplysninger om din brug af vores hjemmeside med vores partnere inden for sociale medier, annoncering og analyse, som kan kombinere dem med andre oplysninger, du har givet dem, eller som de har indsamlet fra din brug af deres tjenester.";
-var thirdSectionText = "Cookies er små tekstfiler, der bruges af hjemmesider til at forbedre brugeroplevelsen. Loven siger, at vi kan gemme cookies på din enhed, hvis de er strengt nødvendige for driften af denne hjemmeside. For alle andre typer cookies har vi brug for din tilladelse. Dette betyder, at cookies klassificeret som nødvendige håndteres i henhold til artikel 6, stk. 1, litra f, i GDPR. Alle andre cookies, såsom dem i kategorierne Præferencer og Markedsføring, håndteres i henhold til artikel 6, stk. 1, litra a, i GDPR. Denne hjemmeside bruger forskellige typer cookies. Nogle cookies sættes af tredjepartstjenester, der vises på vores sider.";
-
+var firstSectionText = "We use cookies to personalize content and ads, provide social media features, and analyze our traffic. We also share information about your use of our website with our social media, advertising, and analytics partners, who may combine it with other information you have provided to them or that they have collected from your use of their services.";
+var thirdSectionText = "Cookies are small text files that are used by websites to improve the user experience. The law states that we can store cookies on your device if they are strictly necessary for the operation of this website. For all other types of cookies, we need your permission. This means that cookies classified as necessary are managed according to Article 6(1)(f) of the GDPR. All other cookies, such as those in the Preferences and Marketing categories, are managed according to Article 6(1)(a) of the GDPR. This website uses different types of cookies. Some cookies are set by third-party services that appear on our pages.";
 var bannerButtonsTexts = ["Accept", "Decline", "Customize", "Save"];
 
 var categoryDescriptionsText = {
@@ -1051,7 +1050,7 @@ window.addEventListener("load", function() {
 			function showSecondBanner() {
 				var secondBannerElement = `
                 <div class="doubleCheckPopUp">
-                    <h1 class="cookieHeadline">Vi har bemærket, at du har afvist at acceptere brugen af cookies. Selvom vi respekterer din beslutning, skal du være opmærksom på, at det at afvise cookies kan påvirke din browseroplevelse. Nogle funktioner på hjemmesiden, som personligt tilpasset indhold og visse funktionaliteter, virker muligvis ikke som tiltænkt. For at sikre, at du får den bedste oplevelse, anbefaler vi, at du genovervejer din beslutning. Hvis du ombestemmer dig, kan du altid justere dine præferencer i indstillingerne eller acceptere cookies ved at acceptere banneret igen.</h1>
+                    <h1 class="cookieHeadline">We noticed that you've declined to accept the use of cookies. While we respect your decision, please note that declining cookies may impact your browsing experience. Some website features, such as personalized content and certain functionalities, may not work as intended. To ensure you get the best experience, we recommend reviewing your decision. If you change your mind, you can always adjust your preferences in the settings or consent to cookies by accepting the banner again.</h1>
                     <div class="secondBannerBtnWrapper">
                         <button class="secondBannerBtn secondBannerAccept active">Accept</button>
                         <button class="secondBannerBtn secondBannerDeclined declined">Decline</button>
